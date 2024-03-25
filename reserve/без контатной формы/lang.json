@@ -1,0 +1,167 @@
+{
+   "name": {
+      "uk": "Лідія Андрійчук",
+      "pl": "Lidia Andriychuk",
+      "en": "Lidia Andriychuk"
+   },
+   "first-name": {
+      "uk": "Лідія",
+      "pl": "Lidia",
+      "en": "Lidia"
+   },
+   "second-name": {
+      "uk": "Андрійчук",
+      "pl": "Andriychuk",
+      "en": "Andriychuk"
+   },
+   "main-page": {
+      "uk": "Головна сторінка",
+      "pl": "Strona główna",
+      "en": "Main page"
+   },
+   "about": {
+      "uk": "Про мене",
+      "pl": "O mnie",
+      "en": "About me"
+   },
+   "services": {
+      "uk": "Послуги",
+      "pl": "Usługi",
+      "en": "Services"
+   },
+   "prices": {
+      "uk": "Ціни",
+      "pl": "Ceny",
+      "en": "Prices"
+   },
+   "sign-up": {
+      "uk": "Записатися",
+      "pl": "Zapisać się",
+      "en": "Sign up"
+   },
+   "typing-text": {
+      "uk": "психолог, арт-терапевт",
+      "pl": "psycholog, arteterapeuta",
+      "en": "psychologist, art therapist"
+   },
+   "currency": {
+      "uk": "злотих",
+      "pl": "zł",
+      "en": "PLN"
+   },
+   "time": {
+      "uk": "хв.",
+      "pl": "min.",
+      "en": "min."
+   },
+   "consult": {
+      "uk": "Консультація",
+      "pl": "Konsultacja",
+      "en": "Consultation"
+   },
+   "individual": {
+      "uk": "Індивідуальна терапія",
+      "pl": "Terapia indywidualna",
+      "en": "Individual therapy"
+   },
+   "couples": {
+      "uk": "Терапія для пар",
+      "pl": "Terapia par",
+      "en": "Couples therapy"
+   },
+   "family": {
+      "uk": "Сімейна терапія",
+      "pl": "Terapia rodzin",
+      "en": "Family therapy"
+   },
+   "education": {
+      "uk": "Освіта",
+      "pl": "Edukacja",
+      "en": "Education"
+   },
+   "master": {
+      "uk": "Магістр, психолог, викладач",
+      "pl": "Mistrz, psycholog, nauczyciel",
+      "en": "Master, psychologist, teacher"
+   },
+   "experience": {
+      "uk": "Професійний досвід:",
+      "pl": "Doświadczenie zawodowe:",
+      "en": "Professional experience:"
+   },
+   "about-p1": {
+      "uk": "Лідія Андрійчук, психолог, психотерапевт, спеціаліст з танце-рухової терапії та терапії творчим самовираженням.",
+      "pl": "Lidia Andriychuk, psycholog, psychoterapeutka, specjalistka terapii tańcem i ruchem oraz twórczej terapii wyrażania siebie.",
+      "en": "Lidia Andriychuk, psychologist, psychotherapist, specialist in dance-movement therapy and creative self-expression therapy."
+   },
+   "about-p2": {
+      "uk": "Психотерапією займаюся понад 18 років, з дітьми, молоддю та родинами, організаціями.",
+      "pl": "Od ponad 18 lat zajmuję się psychoterapią z dziećmi, młodzieżą i rodzinami, organizacjami.",
+      "en": "I have been engaged in psychotherapy for over 18 years, with children, youth and families, organizations."
+   },
+   "about-p3": {
+      "uk": "В своїй практиці я працюю з дорослими, підлітками (від 13 років), парами, які зазнають емоційних труднощів, криз (екзистенційних, особистісних тощо), особами із тривожними розладами, тими, хто переживає різноманітні травми і розлади.",
+      "pl": "W swojej praktyce pracuję z osobami dorosłymi, młodzieżą (od 13 roku życia), parami przeżywającymi trudności emocjonalne, kryzysy (egzystencjalne, osobiste itp.), osobami z zaburzeniami lękowymi, przeżywającymi różnego rodzaju traumy i zaburzenia.",
+      "en": "In my practice, I work with adults, teenagers (from 13 years old), couples who are experiencing emotional difficulties, crises (existential, personal, etc.), people with anxiety disorders, those who are experiencing various traumas and disorders."
+   },
+   "about-p4": {
+      "uk": "Я допомагаю батькам встановлювати контакт та взаємини зі своїми підлітками і підліткам у взаєморозумінні між собою, батьками та всім іншим світом.",
+      "pl": "Pomagam rodzicom nawiązywać kontakt i relacje ze swoimi nastolatkami oraz nastolatkami we wzajemnym zrozumieniu pomiędzy nimi samymi, rodzicami i resztą świata.",
+      "en": "I help parents establish contact and relationships with their teenagers and teenagers in mutual understanding between themselves, parents and the rest of the world."
+   },
+   "about-p5": {
+      "uk": "Перш за все, всім тим, хто прагне широко розглядати ЗМІНУ.",
+      "pl": "Przede wszystkim wszystkim tym, którzy dążą do szerokiego pojmowania ZMIANY.",
+      "en": "First of all, to all those who want to consider the CHANGE broadly."
+   },
+   "about-p6": {
+      "uk": "Я працюю відповідно до принципів професійної етики. Регулярно прохожу індивідуальну та групову супервізію. Постійно дбаю про професійний та особистісний розвиток, беручи участь у майстер-класах, тренінгах та курсах.",
+      "pl": "Pracuję zgodnie z zasadami etyki zawodowej. Regularnie poddaję się superwizji indywidualnej i grupowej. Stale dbam o rozwój zawodowy i osobisty, uczestnicząc w kursach mistrzowskich, szkoleniach i kursach.",
+      "en": "I work in accordance with the principles of professional ethics. I regularly undergo individual and group supervision. I constantly take care of professional and personal development, participating in master classes, trainings and courses."
+   },
+   "about-p7": {
+      "uk": "Навчалася в Національному Прикарпатському Університеті ім. Василя Стефаника в м. Івано-Франківськ, вивчала транзакційний аналіз, терапія усвідомленням, психодраму, методи творчого самовираження та є спеціалістом з танце-рухової терапії.",
+      "pl": "Studiowała na Narodowym Uniwersytecie Karpackim im Wasyl Stefanyk w Iwano-Frankowsku studiował analizę transakcyjną, terapię świadomości, psychodramę, metody twórczego wyrażania siebie i jest specjalistą terapii tańcem i ruchem.",
+      "en": "Studied at the National Carpathian University named after Vasyl Stefanyk in Ivano-Frankivsk, studied transactional analysis, awareness therapy, psychodrama, methods of creative self-expression and is a specialist in dance-movement therapy."
+   },
+   "about-list1": {
+      "uk": "Психолог в загальноосвітній школі з тривалим стажем, спеціалізується на роботі з дітьми та підлітками;",
+      "pl": "Psycholog w szkole średniej z wieloletnim doświadczeniem, specjalizuje się w pracy z dziećmi i młodzieżą;",
+      "en": "A psychologist in a secondary school with a long experience, specializes in working with children and adolescents;"
+   },
+   "about-list2": {
+      "uk": "Ініціатор і керівник шкільного аматорського театру, де застосовуються психодраматичні техніки для розповіді учнів про їхні життєві історії;",
+      "pl": "Pomysłodawca i dyrektor szkolnego teatru amatorskiego, w którym za pomocą technik psychodramatycznych opowiadają uczniom historie swojego życia;",
+      "en": "Initiator and director of the school's amateur theater, where psychodramatic techniques are used to tell students about their life stories;"
+   },
+   "about-list3": {
+      "uk": "Працювала в психоневрологічній лікарні, використовуючи методи арт-терапії та танце-рухової терапії в роботі з пацієнтами;",
+      "pl": "Pracowała w szpitalu Psychoneurologicznym, wykorzystując w pracy z pacjentami metody arteterapii i terapii taneczno-motorycznej;",
+      "en": "She worked in the psychoneurological hospital, using the methods of art therapy and dance-motor therapy in working with patients;"
+   },
+   "about-list4": {
+      "uk": "Активно вивчає психодраму та творче письмо, бере участь у творчих майстернях;",
+      "pl": "Aktywnie studiuje psychodramę i twórcze pisanie, uczestniczy w warsztatach twórczych;",
+      "en": "Actively studies psychodrama and creative writing, participates in creative workshops;"
+   },
+   "about-list5": {
+      "uk": "Асистент родин учасників АТО, надаючи психологічну підтримку та допомагаючи в адаптації після воєнних подій;",
+      "pl": "Asystent rodzin uczestników ATO, zapewniający wsparcie psychologiczne i pomoc w adaptacji po wydarzeniach wojennych;",
+      "en": "Assistant to families of ATO participants, providing psychological support and helping in adaptation after war events;"
+   },
+   "about-list6": {
+      "uk": "Співавтор метафоричної трансформаційної гри „Шлях душі”, спрямованої на особистісний розвиток та зцілення;",
+      "pl": "Współautor metaforycznej gry transformacyjnej „Ścieżka Duszy” mającej na celu rozwój osobisty i uzdrawianie;",
+      "en": "Co-author of the metaphorical transformational game „The Path of the Soul” aimed at personal development and healing;"
+   },
+   "about-list7": {
+      "uk": "Участь у польському проекті для біженців, де забезпечує психологічну підтримку тим, хто тікав від війни.",
+      "pl": "Udział w polskim projekcie na rzecz uchodźców, który zapewnia wsparcie psychologiczne uciekającym przed wojną.",
+      "en": "Participation in the Polish project for refugees, which provides psychological support to those fleeing the war."
+   },
+   "about-p8": {
+      "uk": "Лідія Андрійчук - це пристрасний психолог, який здатний створювати підтримливе середовище для особистісного зростання та зцілення через творчість та емпатію.",
+      "pl": "Lidia Andriychuk jest psychologiem z pasją, która poprzez kreatywność i empatię potrafi stworzyć środowisko wspierające rozwój osobisty i uzdrowienie.",
+      "en": "Lidia Andriychuk is a passionate psychologist who is able to create a supportive environment for personal growth and healing through creativity and empathy."
+   }
+}
