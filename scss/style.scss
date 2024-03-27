@@ -114,6 +114,11 @@ a:hover {
 
 ul li {
    list-style: none;
+   margin-bottom: 0.5rem;
+
+   &:last-child {
+      margin-bottom: 0;
+   }
 }
 
 img {

@@ -15,6 +15,9 @@
     <script defer src="vendor/bootstrap/bootstrap.min.js"></script>
     <!-- FONT AWESOME -->
     <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <!-- Slider Swiper -->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
     <!-- Animate On Scroll -->
     <link rel="stylesheet" href="vendor/aos/aos.css">
     <script src="vendor/aos/aos.js"></script>
@@ -85,6 +88,68 @@
         <a href="index.html">
             <button type="button" class="btn btn-danger btn-main-page">Main page</button>
         </a>
+
+        <section>
+            <div style="margin: 17.5rem 3rem 1rem; overflow: hidden;">
+                <div class="swiper-diploma">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="lightbox justify-content-center mb-3 uk-child-width-1-1@m" uk-grid
+                                uk-lightbox="animation: scale">
+                                <a class="uk-inline" href="img/cirtificate-1.jpg" data-caption="Diploma">
+                                    <img src="img/cirtificate-1.jpg" alt="Diploma" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lightbox justify-content-center mb-3 uk-child-width-1-1@m" uk-grid
+                                uk-lightbox="animation: scale">
+                                <a class="uk-inline" href="img/cirtificate-2.jpg" data-caption="Certificate">
+                                    <img src="img/cirtificate-2.jpg" alt="Certificate" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lightbox justify-content-center mb-3 uk-child-width-1-1@m" uk-grid
+                                uk-lightbox="animation: scale">
+                                <a class="uk-inline" href="img/cirtificate-1.jpg" data-caption="Diploma">
+                                    <img src="img/cirtificate-1.jpg" alt="Diploma" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lightbox justify-content-center mb-3 uk-child-width-1-1@m" uk-grid
+                                uk-lightbox="animation: scale">
+                                <a class="uk-inline" href="img/cirtificate-2.jpg" data-caption="Certificate">
+                                    <img src="img/cirtificate-2.jpg" alt="Certificate" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lightbox justify-content-center mb-3 uk-child-width-1-1@m" uk-grid
+                                uk-lightbox="animation: scale">
+                                <a class="uk-inline" href="img/cirtificate-1.jpg" data-caption="Diploma">
+                                    <img src="img/cirtificate-1.jpg" alt="Diploma" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="lightbox justify-content-center mb-3 uk-child-width-1-1@m" uk-grid
+                                uk-lightbox="animation: scale">
+                                <a class="uk-inline" href="img/cirtificate-2.jpg" data-caption="Certificate">
+                                    <img src="img/cirtificate-2.jpg" alt="Certificate" loading="lazy">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
 
         <section id="custom-title">
             <div class="container">
@@ -293,6 +358,49 @@
                 subtitle.textContent = title.textContent;
                 title.appendChild(subtitle);
             });
+        });
+
+        // Slider Swiper
+        var swiper = new Swiper('.swiper-diploma', {
+            loop: true, // бесконечная прокрутка
+            // rewind: true, // перемотка в начало
+            spaceBetween: 32,
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: true,
+            },
+            // mousewheel: true,
+            keyboard: {
+                enabled: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+                clickable: true,
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 2, // количество слайдов на экране
+                },
+                768: {
+                    slidesPerView: 3, // количество слайдов на экране
+                },
+                1024: {
+                    slidesPerView: 5, // количество слайдов на экране
+                },
+            },
+        });
+
+        swiper.el.addEventListener('mouseenter', function () {
+            swiper.autoplay.stop(); // Остановить автопрокрутку при наведении мыши
+        });
+
+        swiper.el.addEventListener('mouseleave', function () {
+            swiper.autoplay.start(); // Запустить автопрокрутку при уходе мыши
         });
     </script>
 
