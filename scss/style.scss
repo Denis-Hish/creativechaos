@@ -24,6 +24,8 @@ $text: #212529;
 $text-secondary: #444;
 $color-blue: #03c2cc;
 $color-pink: #eb00cb;
+$color-red: #dc3545;
+$color-green: #198754;
 
 // Main colors hover
 $color-blue-hover: #03a8b1;
@@ -1931,6 +1933,16 @@ header.header {
       width: 150px;
    }
 
+   .form-check-input {
+      &:not(:invalid):focus {
+         border-color: $color-blue;
+      }
+
+      &:checked {
+         background-color: $color-blue;
+      }
+   }
+
    &#processing-data,
    &#processing-data2 {
       .modal-body {
@@ -1961,11 +1973,11 @@ header.header {
          }
 
          &.done {
-            color: #198754;
+            color: $color-green;
          }
 
          &.error {
-            color: #dc3545;
+            color: $color-red;
          }
       }
 
@@ -2008,6 +2020,97 @@ header.header {
          }
       }
    }
+
+   // Custom placeholder
+   .input-box {
+      position: relative;
+
+      input,
+      textarea {
+         outline: none;
+         color: $text;
+         font-size: 1em;
+         transition: all 0.2s $cubic-minus;
+
+         &::placeholder {
+            color: #a9a9a9;
+            opacity: 0;
+            transition: opacity 0.2s $cubic-minus;
+         }
+
+         &:valid {
+            border-color: $color-green;
+         }
+
+         &:focus {
+            border-color: $color-blue;
+
+            &::placeholder {
+               opacity: 1;
+            }
+         }
+
+         &:valid ~ span,
+         &:focus ~ span {
+            transform: translate(17px, -10px);
+            font-size: 0.75em;
+            padding: 0 0.625rem;
+            color: #fff;
+            background-color: $color-blue;
+            border-left: 1px solid $color-blue;
+            border-right: 1px solid $color-blue;
+            letter-spacing: 0.125em;
+            border-radius: 0.125rem;
+         }
+
+         // &:valid ~ span {
+         //    background-color: $color-green;
+         //    border-left-color: $color-green;
+         //    border-right-color: $color-green;
+         // }
+
+         // &:valid:focus {
+         //    & ~ span {
+         //       background-color: $color-green;
+         //       border-left-color: $color-green;
+         //       border-right-color: $color-green;
+         //    }
+         // }
+
+         // &:invalid:focus {
+         //    & ~ span {
+         //       background-color: $color-red;
+         //       border-left-color: $color-red;
+         //       border-right-color: $color-red;
+         //    }
+         // }
+
+         // &:focus ~ span {
+         //    background-color: $color-blue;
+         //    border-left: 1px solid $color-blue;
+         //    border-right: 1px solid $color-blue;
+         // }
+      }
+
+      span {
+         position: absolute;
+         left: 0;
+         top: 0;
+         padding: 0.625rem 1rem;
+         pointer-events: none;
+         font-size: 1em;
+         // text-transform: uppercase;
+         color: #a9a9a9;
+         border: 1px solid transparent;
+         transition: 0.2s;
+         text-wrap: nowrap;
+      }
+   }
+}
+
+// Предотвращение выхода placeholder за пределы input
+.modal.show .modal-dialog {
+   max-width: 600px;
 }
 
 // предотвращение перекрытия контента фоновой подложкой

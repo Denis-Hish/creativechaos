@@ -116,7 +116,7 @@
    },
    "message": {
       "uk": "Ваше повідомлення",
-      "pl": "Twoja wiadomość",
+      "pl": "Twoja wiadomoś",
       "en": "Your Message"
    },
    "data-processing": {
@@ -164,7 +164,7 @@
       "pl": "+48 123-456-789",
       "en": "+0 (123) 456-789-012"
    },
-   "placeholder-messange": {
+   "placeholder-message": {
       "uk": "Ваше повідомлення...",
       "pl": "Twoja wiadomość...",
       "en": "Your message..."
