@@ -1908,7 +1908,7 @@ header.header {
       }
 
       .modal-body {
-         padding: 2rem 1rem;
+         padding: 2rem 1rem 1rem;
 
          label {
             text-wrap: nowrap;
@@ -2027,6 +2027,20 @@ header.header {
    .input-box {
       position: relative;
 
+      span {
+         position: absolute;
+         left: 0;
+         top: 0;
+         padding: 0.625rem 1rem;
+         pointer-events: none;
+         font-size: 1em;
+         // text-transform: uppercase;
+         color: #a9a9a9;
+         border: 1px solid transparent;
+         transition: 0.2s;
+         text-wrap: nowrap;
+      }
+
       input,
       textarea {
          outline: none;
@@ -2065,26 +2079,8 @@ header.header {
             border-radius: 0.125rem;
          }
 
-         // &:valid ~ span {
-         //    background-color: $color-green;
-         //    border-left-color: $color-green;
-         //    border-right-color: $color-green;
-         // }
-
-         // &:valid:focus {
-         //    & ~ span {
-         //       background-color: $color-green;
-         //       border-left-color: $color-green;
-         //       border-right-color: $color-green;
-         //    }
-         // }
-
-         // &:invalid:focus {
-         //    & ~ span {
-         //       background-color: $color-red;
-         //       border-left-color: $color-red;
-         //       border-right-color: $color-red;
-         //    }
+         // &:focus ~ span {
+         //    background-color: $color-blue;
          // }
 
          // &:focus ~ span {
@@ -2092,27 +2088,31 @@ header.header {
          //    border-left: 1px solid $color-blue;
          //    border-right: 1px solid $color-blue;
          // }
-      }
 
-      span {
-         position: absolute;
-         left: 0;
-         top: 0;
-         padding: 0.625rem 1rem;
-         pointer-events: none;
-         font-size: 1em;
-         // text-transform: uppercase;
-         color: #a9a9a9;
-         border: 1px solid transparent;
-         transition: 0.2s;
-         text-wrap: nowrap;
+         // &:valid ~ span {
+         //    background-color: $color-green;
+         //    border-left-color: $color-green;
+         //    border-right-color: $color-green;
+         // }
+
+         // &:valid:focus ~ span {
+         //    background-color: $color-green;
+         //    border-left-color: $color-green;
+         //    border-right-color: $color-green;
+         // }
+
+         // &:invalid:focus ~ span {
+         //    background-color: $color-red;
+         //    border-left-color: $color-red;
+         //    border-right-color: $color-red;
+         // }
       }
    }
 }
 
 // Предотвращение выхода placeholder за пределы input
 .modal.show .modal-dialog {
-   max-width: 600px;
+   max-width: 650px;
 }
 
 // предотвращение перекрытия контента фоновой подложкой

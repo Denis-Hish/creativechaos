@@ -674,7 +674,7 @@ if (toastTrigger) {
          // delay: 2000, // скрытие через мс
       });
       toastBootstrap.show(); // автоматическое отображение при загрузке страницы
-      toastBootstrap.hide(); //? скрыто
+      // toastBootstrap.hide(); //? скрыто
    });
 }
 
