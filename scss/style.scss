@@ -2088,7 +2088,8 @@ header.header {
 
 // Custom placeholder
 .was-validated {
-   input:invalid:focus ~ span {
+   input:invalid:focus ~ span,
+   textarea:invalid:focus ~ span {
       background-color: $color-red;
    }
 }
