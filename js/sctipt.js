@@ -656,7 +656,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Show modal
-// new bootstrap.Modal(document.getElementById('modal-send')).show();
+new bootstrap.Modal(document.getElementById('modal-send')).show();
 // new bootstrap.Modal(document.getElementById('modal-success')).show();
 // new bootstrap.Modal(document.getElementById('modal-error')).show();
 // new bootstrap.Modal(document.getElementById('processing-data')).show();
@@ -674,7 +674,7 @@ if (toastTrigger) {
          // delay: 2000, // скрытие через мс
       });
       toastBootstrap.show(); // автоматическое отображение при загрузке страницы
-      // toastBootstrap.hide(); //? скрыто
+      toastBootstrap.hide(); //? скрыто
    });
 }
 

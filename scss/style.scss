@@ -2054,7 +2054,8 @@ header.header {
             transition: opacity 0.2s $cubic-minus;
          }
 
-         &:valid {
+         &:valid,
+         &:valid:focus {
             border-color: $color-green;
          }
 
@@ -2073,40 +2074,22 @@ header.header {
             padding: 0 0.625rem;
             color: #fff;
             background-color: $color-blue;
-            border-left: 1px solid $color-blue;
-            border-right: 1px solid $color-blue;
             letter-spacing: 0.125em;
             border-radius: 0.125rem;
          }
 
-         // &:focus ~ span {
-         //    background-color: $color-blue;
-         // }
-
-         // &:focus ~ span {
-         //    background-color: $color-blue;
-         //    border-left: 1px solid $color-blue;
-         //    border-right: 1px solid $color-blue;
-         // }
-
-         // &:valid ~ span {
-         //    background-color: $color-green;
-         //    border-left-color: $color-green;
-         //    border-right-color: $color-green;
-         // }
-
-         // &:valid:focus ~ span {
-         //    background-color: $color-green;
-         //    border-left-color: $color-green;
-         //    border-right-color: $color-green;
-         // }
-
-         // &:invalid:focus ~ span {
-         //    background-color: $color-red;
-         //    border-left-color: $color-red;
-         //    border-right-color: $color-red;
-         // }
+         &:valid ~ span,
+         &:valid:focus ~ span {
+            background-color: $color-green;
+         }
       }
+   }
+}
+
+// Custom placeholder
+.was-validated {
+   input:invalid:focus ~ span {
+      background-color: $color-red;
    }
 }
 
