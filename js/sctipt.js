@@ -656,7 +656,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Show modal
-new bootstrap.Modal(document.getElementById('modal-send')).show();
+// new bootstrap.Modal(document.getElementById('modal-send')).show();
 // new bootstrap.Modal(document.getElementById('modal-success')).show();
 // new bootstrap.Modal(document.getElementById('modal-error')).show();
 // new bootstrap.Modal(document.getElementById('processing-data')).show();

@@ -956,6 +956,7 @@ main {
             position: relative;
             align-items: center;
             height: 100%;
+            max-width: 300px; // ???
             border-radius: 8px;
             border: none;
             overflow: hidden;
@@ -978,6 +979,7 @@ main {
 
             .card-body {
                width: 100%;
+               height: 160px; // ???
                display: flex;
                flex-direction: column;
                z-index: 2;
@@ -990,6 +992,11 @@ main {
                .card-title,
                .card-text {
                   text-align: center;
+                  text-wrap: balance;
+               }
+
+               .card-text {
+                  margin-top: auto;
                }
             }
 
