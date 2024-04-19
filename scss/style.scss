@@ -1707,14 +1707,12 @@ header.header {
       img {
          border-radius: 6px;
          box-shadow: 4px 4px 10px #d6d2d9, -4px -4px 10px #ffffff;
-         filter: grayscale(50%);
       }
 
       &:hover {
          img {
             box-shadow: 6px 6px 12px #d6d2d9, -6px 6px 12px #ffffff;
             transform: translateY(-2px);
-            filter: grayscale(0%);
          }
 
          i {
