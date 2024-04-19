@@ -1683,38 +1683,42 @@ header.header {
    }
 }
 
-/* Nikita Dubko */
-// resizer
-.panels {
-   display: grid;
-   grid-template-columns: auto 1fr;
-   gap: 2rem;
-}
-
-.resizer {
-   max-width: 50cqi;
-   overflow: hidden;
-   resize: horizontal;
-}
-
 // Lightbox
 .lightbox {
-   // gap: 1rem;
-
    .img-box {
-      img {
-         // height: auto;
-         border-radius: 6px;
-         // box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-         box-shadow: 4px 4px 10px #d6d2d9, -4px -4px 10px #ffffff;
+      position: relative;
+
+      img,
+      i {
          transition: all 0.3s $cubic-minus;
+      }
+
+      i {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 2.375rem;
+         color: white;
+         filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+         opacity: 0;
+      }
+
+      img {
+         border-radius: 6px;
+         box-shadow: 4px 4px 10px #d6d2d9, -4px -4px 10px #ffffff;
+         filter: grayscale(50%);
       }
 
       &:hover {
          img {
-            // box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
             box-shadow: 6px 6px 12px #d6d2d9, -6px 6px 12px #ffffff;
             transform: translateY(-2px);
+            filter: grayscale(0%);
+         }
+
+         i {
+            opacity: 1;
          }
       }
    }
