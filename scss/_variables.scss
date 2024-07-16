@@ -1,0 +1,60 @@
+// Main colors
+$text: #212529;
+$text-secondary: #444;
+$color-blue: #03c2cc;
+$color-pink: #eb00cb;
+$color-red: #dc3545;
+$color-green: #198754;
+
+// Main colors hover
+$color-blue-hover: #03a8b1;
+$color-pink-hover: #c900ae;
+
+// Linear gradient
+$gradient-blue-out: linear-gradient(145deg, #03d0da, #03afb8);
+$gradient-blue-in: linear-gradient(145deg, #03afb8, #03d0da);
+$gradient-pink-out: linear-gradient(145deg, #fb00d9, #d400b7);
+$gradient-pink-in: linear-gradient(145deg, #d400b7, #fb00d9);
+
+// Linear gradien hover
+$gradient-blue-out-hover: linear-gradient(145deg, #03b4bd, #03979f);
+$gradient-blue-in-hover: linear-gradient(145deg, #03979f, #03b4bd);
+$gradient-pink-out-hover: linear-gradient(145deg, #d700ba, #b5009d);
+$gradient-pink-in-hover: linear-gradient(145deg, #b5009d, #d700ba);
+
+// Secondary colors
+$white: #d3d3d3;
+$pink: #f0f;
+$cyan: #0ff;
+$red: #f00;
+$lime: #0f0;
+$yellow: #ff0;
+$pink: #f09;
+$orange: #f60;
+$blue: #00f;
+
+$blue-1-cc: #008bf8;
+$blue-2-cc: #59b7ff;
+$green-cc: #39d6b4;
+$pink-1-cc: #dc0073;
+$pink-2-cc: #ff7bb4;
+$lavender-cc: #a668eb;
+
+$linear-gradient: linear-gradient(
+  90deg,
+  rgba(32, 32, 32, 1) 0%,
+  rgba(65, 65, 65, 1) 50%,
+  rgba(32, 32, 32, 1) 100%
+);
+
+$box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+  inset 0 0px 4px rgba(255, 255, 255, 0.25);
+$box-shadow-hover: 0 6px 6px rgba(0, 0, 0, 0.25),
+  inset 0 0px 4px rgba(255, 255, 255, 0.25);
+
+$cubic-minus: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+$cubic-plus: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+:root {
+  --swiper-theme-color: #03c2cc;
+}
