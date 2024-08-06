@@ -1,7 +1,7 @@
 {
    "name": {
       "uk": "Лідія Андрійчук",
-      "pl": "Lidia Andrijczuk",
+      "pl": "Lidia Andriychuk",
       "en": "Lidia Andriychuk"
    },
    "first-name": {
@@ -11,7 +11,7 @@
    },
    "second-name": {
       "uk": "Андрійчук",
-      "pl": "Andrijczuk",
+      "pl": "Andriychuk",
       "en": "Andriychuk"
    },
    "main-page": {
@@ -215,18 +215,53 @@
       "en": "service on our site, which prevents fraud, spam and is focused on security and privacy."
    },
    "about-p1": {
-      "uk": "",
-      "pl": "",
-      "en": ""
+      "uk": "Лідія Андрійчук, психолог, психотерапевт, спеціаліст з танце-рухової терапії та терапії творчим самовираженням.",
+      "pl": "Lidia Andriychuk, psycholog, psychoterapeutka, specjalistka terapii tańcem i ruchem oraz twórczej terapii wyrażania siebie.",
+      "en": "Lidia Andriychuk, psychologist, psychotherapist, specialist in dance-movement therapy and creative self-expression therapy."
    },
    "about-p2": {
-      "uk": "",
-      "pl": "",
-      "en": ""
+      "uk": "Психотерапією займаюся понад 18 років, з дітьми, молоддю та родинами.",
+      "pl": "Od ponad 18 lat zajmuję się psychoterapią z dziećmi, młodzieżą i rodzinami.",
+      "en": "I have been engaged in psychotherapy for over 18 years, with children, youth and families."
    },
    "about-p3": {
-      "uk": "",
-      "pl": "",
-      "en": ""
+      "uk": "Я працюю відповідно до принципів професійної етики. Регулярно прохожу індивідуальну та групову супервізію. Постійно дбаю про професійний та особистісний розвиток, беручи участь у майстер-класах, тренінгах та курсах.",
+      "pl": "Pracuję zgodnie z zasadami etyki zawodowej. Regularnie poddaję się superwizji indywidualnej i grupowej. Stale dbam o rozwój zawodowy i osobisty, uczestnicząc w kursach mistrzowskich, szkoleniach i kursach.",
+      "en": "I work in accordance with the principles of professional ethics. I regularly undergo individual and group supervision. I constantly take care of professional and personal development, participating in master classes, trainings and courses."
+   },
+   "about-list1": {
+      "uk": "Психолог в загальноосвітній школі з тривалим стажем, спеціалізується на роботі з дітьми та підлітками.",
+      "pl": "Psycholog w szkole średniej z wieloletnim doświadczeniem, specjalizuje się w pracy z dziećmi i młodzieżą.",
+      "en": "A psychologist in a secondary school with a long experience, specializes in working with children and adolescents."
+   },
+   "about-list2": {
+      "uk": "Ініціатор і керівник шкільного аматорського театру, де застосовуються психодраматичні техніки для розповіді учнів про їхні життєві історії.",
+      "pl": "Pomysłodawca i dyrektor szkolnego teatru amatorskiego, w którym za pomocą technik psychodramatycznych opowiadają uczniom historie swojego życia.",
+      "en": "Initiator and director of the school's amateur theater, where psychodramatic techniques are used to tell students about their life stories."
+   },
+   "about-list3": {
+      "uk": "Працювала в психоневрологічній лікарні, використовуючи методи арт-терапії та танце-рухової терапії в роботі з пацієнтами.",
+      "pl": "Pracowała w szpitalu Psychoneurologicznym, wykorzystując w pracy z pacjentami metody arteterapii i terapii taneczno-motorycznej.",
+      "en": "She worked in the psychoneurological hospital, using the methods of art therapy and dance-motor therapy in working with patients."
+   },
+   "about-list4": {
+      "uk": "Активно вивчає психодраму та творче письмо, бере участь у творчих майстернях.",
+      "pl": "Aktywnie studiuje psychodramę i twórcze pisanie, uczestniczy w warsztatach twórczych.",
+      "en": "Actively studies psychodrama and creative writing, participates in creative workshops."
+   },
+   "about-list5": {
+      "uk": "Асистент родин учасників АТО, надаючи психологічну підтримку та допомагаючи в адаптації після воєнних подій.",
+      "pl": "Asystent rodzin uczestników ATO, zapewniający wsparcie psychologiczne i pomoc w adaptacji po wydarzeniach wojennych.",
+      "en": "Assistant to families of ATO participants, providing psychological support and helping in adaptation after war events."
+   },
+   "about-list6": {
+      "uk": "Співавтор метафоричної трансформаційної гри „Шлях душі”, спрямованої на особистісний розвиток та зцілення.",
+      "pl": "Współautor metaforycznej gry transformacyjnej „Ścieżka Duszy” mającej na celu rozwój osobisty i uzdrawianie.",
+      "en": "Co-author of the metaphorical transformational game „The Path of the Soul” aimed at personal development and healing."
+   },
+   "about-list7": {
+      "uk": "Участь у польському проекті для біженців, де забезпечує психологічну підтримку тим, хто тікав від війни.",
+      "pl": "Udział w polskim projekcie na rzecz uchodźców, który zapewnia wsparcie psychologiczne uciekającym przed wojną.",
+      "en": "Participation in the Polish project for refugees, which provides psychological support to those fleeing the war."
    }
 }
